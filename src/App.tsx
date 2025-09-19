@@ -6,6 +6,7 @@ function App() {
   return (
     <>
       <CommonLayout>
+        <h1>my website</h1>
         <Outlet></Outlet>
       </CommonLayout>
     </>
