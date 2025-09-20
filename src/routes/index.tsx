@@ -1,4 +1,7 @@
 import App from "@/App";
+import about from "@/pages/About";
+import Login from "@/pages/Login";
+import Register from "@/pages/Register";
 import { createBrowserRouter } from "react-router";
 
 export const router = createBrowserRouter([
@@ -9,9 +12,17 @@ export const router = createBrowserRouter([
         children: [
             {
                 path: "about",
-                Component: () => <div>about page</div>
+                Component: about
             }
         ]
     },
+    {
+        path: "/login",
+        Component: Login
+    },
+    {
+        path: "/register",
+        Component: Register
+    }
 
 ])

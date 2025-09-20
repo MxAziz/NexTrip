@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="sm:flex sm:items-center sm:justify-between">
           <div className=" flex items-center justify-center gap-3">
             <Logo />
-            <strong className="text-3xl font-bold bg-gradient-to-r from-[#ff4501] to-[#ff9900] bg-clip-text text-transparent">NexTrip</strong>
+            <strong className="text-3xl font-bold bg-gradient-to-t from-[#ff3801] to-[#ffb300] bg-clip-text text-transparent">NexTrip</strong>
           </div>
 
           <ul className="mt-8 flex justify-start gap-6 sm:mt-0 sm:justify-end">
