@@ -2,12 +2,14 @@ import Logo from "@/assets/icons/logo";
 
 const Footer = () => {
   return (
-    <footer className="bg-white dark:bg-gray-800">
+    <footer className="bg-[#f6f4f0] dark:bg-gray-800">
       <div className="mx-auto container space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
         <div className="sm:flex sm:items-center sm:justify-between">
           <div className=" flex items-center justify-center gap-3">
             <Logo />
-            <strong className="text-3xl font-bold bg-gradient-to-t from-[#ff3801] to-[#ffb300] bg-clip-text text-transparent">NexTrip</strong>
+            <strong className="text-3xl font-bold bg-gradient-to-t from-[#ff3801] to-[#ffb300] bg-clip-text text-transparent">
+              NexTrip
+            </strong>
           </div>
 
           <ul className="mt-8 flex justify-start gap-6 sm:mt-0 sm:justify-end">
