@@ -2,12 +2,12 @@ import Logo from "@/assets/icons/logo";
 
 const Footer = () => {
   return (
-    <footer className="bg-white dark:bg-gray-900">
+    <footer className="bg-white dark:bg-gray-800">
       <div className="mx-auto container space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
         <div className="sm:flex sm:items-center sm:justify-between">
-          <div className="text-teal-600 dark:text-teal-300 flex items-center justify-center gap-3">
+          <div className=" flex items-center justify-center gap-3">
             <Logo />
-            <span className="text-3xl font-bold">NexTrip</span>
+            <strong className="text-3xl font-bold bg-gradient-to-r from-[#ff4501] to-[#ff9900] bg-clip-text text-transparent">NexTrip</strong>
           </div>
 
           <ul className="mt-8 flex justify-start gap-6 sm:mt-0 sm:justify-end">
@@ -129,7 +129,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="grid grid-cols-1 gap-8 border-t border-gray-500 pt-8 sm:grid-cols-2 lg:grid-cols-4 lg:pt-16 dark:border-gray-800">
+        <div className="grid grid-cols-1 gap-8 border-t border-gray-500 pt-8 sm:grid-cols-2 lg:grid-cols-4 lg:pt-16">
           <div>
             <p className="font-medium text-gray-900 dark:text-white">
               Services
