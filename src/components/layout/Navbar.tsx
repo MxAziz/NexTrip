@@ -8,6 +8,7 @@ import {
 import Logo from "@/assets/icons/logo";
 import { Popover, PopoverContent, PopoverTrigger } from "../ui/popover";
 import { Link } from "react-router";
+import { ModeToggle } from "./modeToggle";
 
 // Navigation links array to be used in both desktop and mobile menus
 const navigationLinks = [
@@ -101,6 +102,7 @@ export default function Component() {
         </div>
         {/* Right side */}
         <div className="flex items-center gap-2">
+          <ModeToggle />
           <Button asChild variant="ghost" size="sm" className="text-sm">
             <a href="#">Sign In</a>
           </Button>
